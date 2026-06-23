@@ -1,0 +1,117 @@
+[index.html](https://github.com/user-attachments/files/29242521/index.html)
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ - ณรงค์ฤทธิ์ อาจองค์</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #eef2f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #f0f0f0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 26px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 0 0 5px 0;
+        }
+        .student-id {
+            font-size: 16px;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        .info-box {
+            text-align: left;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .info-item {
+            margin-bottom: 12px;
+            font-size: 15px;
+            color: #34495e;
+            display: flex;
+            flex-direction: column;
+        }
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+        .info-label {
+            font-weight: 600;
+            font-size: 13px;
+            color: #95a5a6;
+            margin-bottom: 3px;
+        }
+        .info-value {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="Messenger_creation_439161A9-6459-4635-A09E-D1B75F2FD653.jpeg" alt="รูปโปรไฟล์ ณรงค์ฤทธิ์ อาจองค์" class="profile-img">
+        
+        <h1 class="name">ณรงค์ฤทธิ์ อาจองค์</h1>
+        <div class="student-id">รหัสนักศึกษา: 694245003</div>
+
+        <div class="info-box">
+            <div class="info-item">
+                <span class="info-label">มหาวิทยาลัย</span>
+                <span class="info-value">มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">คณะ</span>
+                <span class="info-value">วิทยาศาสตร์และเทคโนโลยี</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">สาขาวิชา</span>
+                <span class="info-value">วิทยาการคอมพิวเตอร์</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">เบอร์โทรศัพท์</span>
+                <span class="info-value">0923682063</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">อีเมล</span>
+                <span class="info-value">henchinxeleiynxeks-star</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
